@@ -6,7 +6,7 @@ def main():
     num2 = 4
 
     result = add(num1, num2)
-    print(f" {num1} + {num2} = {result}")
+    return f"{num1} + {num2} = {result}"
 
 if __name__ == "__main__":
-    main()
+    print(main())

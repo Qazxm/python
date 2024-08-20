@@ -44,7 +44,7 @@ android {
     // Chaquopy 설정
     chaquopy {
         defaultConfig {
-            version = "3.10"
+            version = "3.8" // Chaquopy 버전을 안정된 버전으로 설정
         }
         sourceSets {
             getByName("main") {
@@ -57,10 +57,16 @@ android {
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+
+    4
+
+
+
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
